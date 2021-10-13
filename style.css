@@ -295,6 +295,12 @@ body {
   font-family: fontAwesome;
   font-size: 20px;
 }
+.menu.active::before {
+  content: "\f00d";
+  color: #f50057;
+  font-family: fontAwesome;
+  font-size: 20px;
+}
 .container-dua {
   margin-top: 60px;
   display: flex;
